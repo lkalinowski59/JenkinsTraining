@@ -3,7 +3,8 @@ pipeline {
   stages {
     stage('error') {
       steps {
-        sh 'date'
+        sh '''whoami
+date'''
       }
     }
 
