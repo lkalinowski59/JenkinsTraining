@@ -18,5 +18,11 @@ pipeline {
       }
     }
 
+    stage('Ls') {
+      steps {
+        sh 'ls /var/lib/jenkins'
+      }
+    }
+
   }
 }
